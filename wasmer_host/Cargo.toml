@@ -1,0 +1,12 @@
+[package]
+name = "wasmer_host"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasmer = { version = "4.2.2", features = ["wat"] }
+wasmer-types = "4.2.2"
+thiserror = "1.0.50"
+tokio = { version = "1.33.0", features = ["fs"] }
